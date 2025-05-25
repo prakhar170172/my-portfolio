@@ -131,7 +131,7 @@
     <h2 id="contact-title" class="section-title">Get In Touch</h2>
     <div class="contact-wrapper">
 
-      <form class="contact-form" action=""https://formsubmit.co/prakharch2021@gmail.com"" method="POST" enctype="text/plain" aria-label="Contact form">
+      <form class="contact-form" action="https://formsubmit.co/prakharch2021@gmail.com" method="POST"  aria-label="Contact form">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required placeholder="Your full name" />
 
@@ -140,6 +140,11 @@
 
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="6" required placeholder="Your message"></textarea>
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Contact Form Message">
+        <input type="hidden" name="_template" value="table">
+
 
         <button type="submit" class="btn-submit">Send Message</button>
       </form>
